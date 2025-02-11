@@ -52,16 +52,19 @@
             }
         }
 
-        .writing-animation {
-            overflow: hidden;
-            white-space: pre-wrap;
-            margin-bottom: 1em;
-            position: relative;
-            animation: writeText 1s ease-out forwards;
-            padding-left: 10px;
-            border-left: 3px solid transparent;
-            word-wrap: break-word;
-            font-family: 'Dancing Script', cursive;
+   .writing-animation {
+    overflow: hidden;
+    white-space: pre-wrap;
+    margin-bottom: 1em;
+    position: relative;
+    animation: writeText 1s ease-out forwards;
+    padding-left: 10px;
+    border-left: 3px solid transparent;
+    word-wrap: break-word;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    box-sizing: border-box;
+
         }
 
         .writing-animation:nth-child(5n + 1) { color: #ff69b4; border-left-color: #ff69b4; }
